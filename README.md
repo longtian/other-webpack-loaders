@@ -7,6 +7,11 @@ Webpack 的官方文档上有一个 [list-of-loaders](http://webpack.github.io/d
 - [json][#json-loader]
 - [script][#script-loader]
 
+# raw-loader
+
+作用:以 utf-8 编码加载文件的内容
+
+
 # json-loader
 
 作用:加载一个JSON文件的内容并返回对象.
@@ -23,6 +28,16 @@ require('./config.json')
 ```
 require('json!./config.json')
 ```
+
+# hson-loader
+
+作用:加载增强版的JSON (HSON) 并返回对象.
+
+[HSON](https://github.com/timjansen/hanson) 对 JSON 的增强体现在:
+
+- 所有的 JSON 字符串都是有效的 HSON 字符串
+- HSON 里可以写注释
+- HSON 里属性名不一定要有引号
 
 # script-loader
 
