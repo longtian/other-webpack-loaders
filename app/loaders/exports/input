@@ -1,0 +1,3 @@
+var config = {
+    name:'need_to_be_exported'
+}

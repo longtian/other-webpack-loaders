@@ -1,0 +1,1 @@
+//module.exports=require('apply!?args[]=1./input')
