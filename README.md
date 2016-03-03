@@ -1,11 +1,14 @@
-# other-webpack-loaders
-Loader 关怀计划 - 专门介绍 Webpack 那几个冷门的 Loader 
+# 被遗忘的 Loader
+专门介绍 Webpack 那些冷门的 Loader
 
 Webpack 的官方文档上有一个 [list-of-loaders](http://webpack.github.io/docs/list-of-loaders.html)
 之是其中的大部分被使用到的机会非常少, 好心疼这些缺 :heart: 的模块, 所以有这个 repo 专门介绍这些冷门 Loader .
 
-- [json][#json-loader]
-- [script][#script-loader]
+[demo](https://wyvernnot.github.io/other-webpack-loaders)
+
+- [json](#json-loader)
+- [script](#script-loader)
+- 等等
 
 # raw-loader
 
